@@ -1,8 +1,4 @@
 /**
-* Template Name: Gp - v2.1.0
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 */
 !(function($) {
   "use strict";
@@ -225,3 +221,5 @@
   });
 
 })(jQuery);
+// Mail chimp subscrib mailer 
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fcc81e43e1db5ae7b79dfaa3e/2809c61cc396cf219aea7676c.js");</script>
