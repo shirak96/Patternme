@@ -221,5 +221,3 @@
   });
 
 })(jQuery);
-// Mail chimp subscrib mailer 
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fcc81e43e1db5ae7b79dfaa3e/2809c61cc396cf219aea7676c.js");</script>
