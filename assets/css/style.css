@@ -515,7 +515,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: #43aae1;
   margin: 4px 10px;
 }
 
@@ -733,7 +733,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #43aae1;
+  background: white;
   border-color: #43aae1;
   color: #151515;
 }
@@ -1258,7 +1258,10 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffcd6b;
+  background: white;
+  color:  #43aae1;
+  border: solid 2px;
+  border-color: #43aae1;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1553,7 +1556,10 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #ffcd6b;
+  background: white;
+  color:  #43aae1;
+  border: solid 2px;
+  border-color: #43aae1;
 }
 
 #footer .copyright {
