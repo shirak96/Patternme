@@ -490,6 +490,8 @@
 .u-section-4 .u-shape-1 {
   height: 745px;
   width: calc(((100% - 1140px) / 2) + 896px);
+  background-image: none;
+  animation-duration: 1000ms;
   margin: 0 0 0 auto;
 }
 
@@ -1106,7 +1108,7 @@
 
 @media (max-width: 1199px) {
   .u-section-7 .u-sheet-1 {
-    min-height: 194px;
+    min-height: 594px;
   }
 
   .u-section-7 .u-layout-wrap-1 {
@@ -1157,7 +1159,7 @@
 
 @media (max-width: 767px) {
   .u-section-7 .u-sheet-1 {
-    min-height: 294px;
+    min-height: 694px;
   }
 
   .u-section-7 .u-layout-wrap-1 {
