@@ -1,6 +1,6 @@
 {
-    "name": "ZIIDOT",
-    "short_name": "ZIIDOT",
+    "name": "Patternme",
+    "short_name": "Patternme",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,6 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#d32f2f",
-    "background_color": "#d32f2f"
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
 }
