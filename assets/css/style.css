@@ -116,17 +116,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #header .logo {
-  font-size: 32px;
+  align-content: center;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -300,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
