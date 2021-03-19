@@ -465,7 +465,7 @@ font-size: 32px;
 
 @media (max-width: 768px) {
   #hero {
-    height: 80vh;
+    height: auto;
   }
   #hero h1 {
     font-size: 38px;
