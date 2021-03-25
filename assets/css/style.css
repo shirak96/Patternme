@@ -797,8 +797,6 @@ section {
   margin-bottom: 30px;
 }
 
-
-
 #footer .social-links a {
   font-size: 32px;
     display: inline-block;
@@ -821,6 +819,13 @@ section {
     text-decoration: none;
   }
 
+
+  @media (max-width: 768px) {
+    #footer .social-links {
+      text-align: center;
+    }
+  }
+  
 
 #footer .footer-top .footer-newsletter form {
   background: #e5e5e5;
