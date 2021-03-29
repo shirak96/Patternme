@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 1px;
-  bottom: 15px;
+  right: 40px;
+  bottom: 20px;
   z-index: 99999;
 }
 
@@ -36,8 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  width: 40px;
-  height: 40px;
+  height: 25px;
   border-radius: 4px;
   background: 43aae1;
   color: #f26228;
@@ -48,6 +47,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #151515;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+ .back-to-top {
+    right: 5px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -138,11 +144,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  .get-started-btn {
-    margin: 0 48px 0 0;
-    padding: 7px 20px 8px 20px;
-  }
-
   #header .center {
     text-align: center;
     display: block !important;
