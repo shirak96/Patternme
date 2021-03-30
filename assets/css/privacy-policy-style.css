@@ -42,8 +42,8 @@ h1 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 1px;
-  bottom: 15px;
+  right: 40px;
+  bottom: 20px;
   z-index: 99999;
 }
 
@@ -52,8 +52,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  width: 40px;
-  height: 40px;
+  height: 25px;
   border-radius: 4px;
   background: 43aae1;
   color: #f26228;
@@ -64,6 +63,11 @@ h1 {
   background: #151515;
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+ .back-to-top {
+    right: 5px;
+    }
 
 /*--------------------------------------------------------------
 # Preloader
