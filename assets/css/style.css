@@ -603,7 +603,6 @@ section {
   .orangeheaderh2 {
     font-size: 28px;
     font-weight: bolder;
-    line-height: 64px;
   }
 }
 
@@ -616,55 +615,48 @@ section {
 }
 
 .team .shirak {
-  font-size: 36px;
-  font-weight: bolder;
-  line-height: 64px;
+    color: #f26228;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+  .team .shirak {
+    font-size: 28px;
+  }
 }
 
 .team .member {
+  padding: 10px;
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
 
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #151515;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
-
+#team .social-links a {
+  font-size: 32px;
+    display: inline-block;
+    background: #f26228;
+    color: #fff;
+    line-height: 1;
+    padding: 2px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #team  .social-links a:hover {
+    color: #f26228 !important;
+    background: #6c757d2e;
+    color: #151515;
+    text-decoration: none;
+  }
 
 /*--------------------------------------------------------------
 # Footer
