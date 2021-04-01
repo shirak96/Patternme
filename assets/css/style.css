@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: bolder;
   line-height: 64px;
   color: #f26228;
@@ -471,7 +471,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h1 {
-  font-size: 56px;
+  font-size: 50px;
     font-weight: bolder;
     line-height: 64px;
     color: #f26228;
@@ -579,7 +579,7 @@ section {
 }
 
  h1 {
-  font-size: 56px;
+  font-size: 50px;
     font-weight: bolder;
     line-height: 64px;
     color: #f26228;
@@ -605,6 +605,64 @@ section {
     font-weight: bolder;
     line-height: 64px;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  padding: 60px 0;
+}
+
+.team .shirak {
+  font-size: 36px;
+  font-weight: bolder;
+  line-height: 64px;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
 }
 
 
