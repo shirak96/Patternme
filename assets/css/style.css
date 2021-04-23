@@ -757,9 +757,14 @@ section {
 }
 
 #footer .copyright {
-  font-size: 10px;
   text-align: center;
   padding-top: 30px;
+}
+
+@media (max-width: 520px) {
+  #footer .copyright {
+   font-size: 10px;
+  }
 }
 
 #footer .credits {

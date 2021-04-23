@@ -428,6 +428,12 @@ h1 {
   padding-top: 30px;
 }
 
+@media (max-width: 520px) {
+  #footer .copyright {
+   font-size: 10px;
+  }
+}
+
 #footer .credits {
   padding-top: 10px;
   text-align: center;
