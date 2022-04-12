@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #f26228;
+  color: ;
 }
 
 a:hover {
@@ -20,7 +20,7 @@ h1 {
   font-size: 45px;
   font-weight: bolder;
   line-height: 64px;
-  color: #f26228;  
+  color: black;  
   font-family: "Calibri", sans-serif;
 }
 
@@ -55,7 +55,7 @@ h1 {
   height: 25px;
   border-radius: 4px;
   background: 43aae1;
-  color: #f26228;
+  color: black;
   transition: all 0.4s;
 }
 
@@ -89,7 +89,7 @@ h1 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #f26228;
+  border: 6px solid black;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -151,7 +151,7 @@ h1 {
 }
 
 #header .logo a span {
-  color: #f26228;
+  color: black;
 }
 
 #header .logo img {
@@ -200,7 +200,7 @@ h1 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #f26228;
+  color: black;
 }
 
 
@@ -271,7 +271,7 @@ h1 {
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #151515;
   text-decoration: none;
-  background: #f26228;
+  background: black;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -359,7 +359,7 @@ h1 {
 #footer .social-links a {
   font-size: 32px;
     display: inline-block;
-    background: #f26228;
+    background: black;
     color: #fff;
     line-height: 1;
     padding: 2px 0;
@@ -372,7 +372,7 @@ h1 {
   }
   
   #footer  .social-links a:hover {
-    color: #f26228 !important;
+    color: black !important;
     background: #fff;
     color: #151515;
     text-decoration: none;
@@ -410,7 +410,7 @@ h1 {
   background: none;
   font-size: 18px;
   padding: 0 20px;
-  background: #f26228;
+  background: black;
   color: white;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -418,9 +418,9 @@ h1 {
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: white;
-  color:  #f26228;
+  color:  black;
   border: solid 2px;
-  border-color: #f26228;
+  border-color: black;
 }
 
 #footer .copyright {
@@ -442,12 +442,12 @@ h1 {
 }
 
 .Patternme {
-  color: #f26228;
+  color: black;
 }
 
 
 #footer a {
-  color: #f26228;
+  color: black;
 }
 
 #footer a:hover {
