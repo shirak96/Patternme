@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #f26228;
+  color: #000000;
 }
 
 a:hover {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 25px;
   border-radius: 4px;
   background: 43aae1;
-  color: #f26228;
+  color: #000000;
   transition: all 0.4s;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #f26228;
+  border: 6px solid #000000;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #f26228;
+  color: #000000;
 }
 
 #header .logo img {
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #f26228;
+  color: #000000;
 }
 
 
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #151515;
   text-decoration: none;
-  background: #f26228;
+  background: #000000;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -324,11 +324,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   font-weight: bolder;
   line-height: 64px;
-  color: #f26228;
+  color: #000000;
 }
 
 #hero h1 span {
-  color: #f26228;
+  color: #000000;
 }
 
 #hero h2 {
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-size: 18px;
   padding: 0 20px;
-  background: #f26228;
+  background: #000000;
   color: white;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -370,15 +370,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .footer-newsletter form input[type="submit"]:hover {
   background: white;
-  color:  #f26228;
+  color:  #000000;
   border: solid 2px;
-  border-color: #f26228;
+  border-color: #000000;
 }
 
 #hero .social-links a {
 font-size: 32px;
   display: inline-block;
-  background: #f26228;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 2px 0;
@@ -454,7 +454,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #f26228;
+  background: #000000;
   margin: 4px 10px;
 }
 
@@ -474,7 +474,7 @@ section {
   font-size: 50px;
     font-weight: bolder;
     line-height: 64px;
-    color: #f26228;
+    color: #000000;
 }
 .about .content h2 {
   color: #434345;
@@ -496,7 +496,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #f26228;
+  color: #000000;
 }
 
 .about .content p:last-child {
@@ -531,7 +531,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #f26228;
+  background: #000000;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -558,7 +558,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #f26228;
+  color: #000000;
 }
 
 .services .icon-box p {
@@ -582,7 +582,7 @@ section {
   font-size: 50px;
     font-weight: bolder;
     line-height: 64px;
-    color: #f26228;
+    color: #000000;
 }
  h2 {
   color: #434345;
@@ -615,7 +615,7 @@ section {
 }
 
 .team .shirak {
-    color: #f26228;
+    color: #000000;
     font-size: 34px;
     font-weight: bolder;
 }
@@ -639,7 +639,7 @@ section {
 #team .social-links a {
   font-size: 32px;
     display: inline-block;
-    background: #f26228;
+    background: #000000;
     color: #fff;
     line-height: 1;
     padding: 2px 0;
@@ -652,7 +652,7 @@ section {
   }
   
   #team  .social-links a:hover {
-    color: #f26228 !important;
+    color: #000000 !important;
     background: #6c757d2e;
     color: #151515;
     text-decoration: none;
@@ -692,7 +692,7 @@ section {
 #footer .social-links a {
   font-size: 32px;
     display: inline-block;
-    background: #f26228;
+    background: #000000;
     color: #fff;
     line-height: 1;
     padding: 2px 0;
@@ -705,7 +705,7 @@ section {
   }
   
   #footer  .social-links a:hover {
-    color: #f26228 !important;
+    color: #000000 !important;
     background: #fff;
     color: #151515;
     text-decoration: none;
@@ -743,7 +743,7 @@ section {
   background: none;
   font-size: 18px;
   padding: 0 20px;
-  background: #f26228;
+  background: #000000;
   color: white;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -751,9 +751,9 @@ section {
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: white;
-  color:  #f26228;
+  color:  #000000;
   border: solid 2px;
-  border-color: #f26228;
+  border-color: #000000;
 }
 
 #footer .copyright {
@@ -775,7 +775,7 @@ section {
 }
 
 #footer .Patternme {
-  color: #f26228;
+  color: #000000;
 }
 
 @media (max-width: 991px) {
