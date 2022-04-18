@@ -124,6 +124,13 @@ animation: fade 4s linear;
   }
 }
 
+/* @media (max-width: 1200px) {
+  .logomid {
+    justify-content: space-between !important;
+  }
+} */
+
+
 .iconwidth {
   width: 5rem;
   margin: 1rem;
