@@ -126,7 +126,7 @@ animation: fade 4s linear;
 
 /* @media (max-width: 1200px) {
   .logomid {
-    justify-content: space-between !important;
+    justify-content: left;
   }
 } */
 
