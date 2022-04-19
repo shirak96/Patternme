@@ -124,13 +124,6 @@ animation: fade 4s linear;
   }
 }
 
-/* @media (max-width: 1200px) {
-  .logomid {
-    justify-content: left;
-  }
-} */
-
-
 .iconwidth {
   width: 5rem;
   margin: 1rem;
@@ -729,7 +722,7 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
-@media (max-width: 989px) {
+@media (max-width: 991px) {
   .lh-1 {
     text-align: center;
   }
@@ -739,6 +732,9 @@ progress {
   .textcenterfootermedia {
     text-align: center;
     padding-top: 2rem !important;
+  }
+  .navbar .container {
+    justify-content: space-between;
   }
 }
 
@@ -4150,12 +4146,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   /* justify-content: space-between; */
-}
-
-@media (max-width: 991px) {
-  .navbar .container {
-    justify-content: space-between;
-  }
+} 
 
 
 .navbar-brand {
