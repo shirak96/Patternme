@@ -4135,7 +4135,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -4151,6 +4151,13 @@ textarea.form-control-lg {
   align-items: center;
   /* justify-content: space-between; */
 }
+
+@media (min-width: 989px) {
+  .navbar > .container {
+    justify-content: space-between;
+}
+
+
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
