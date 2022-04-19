@@ -4149,13 +4149,9 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-@media (max-width: 989px) {
-  .navbar {
-    justify-content: space-between;
-}
 
 
 .navbar-brand {
