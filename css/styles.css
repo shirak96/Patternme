@@ -4152,6 +4152,10 @@ textarea.form-control-lg {
   /* justify-content: space-between; */
 }
 
+@media (max-width: 991px) {
+  .navbar .container {
+    justify-content: space-between;
+  }
 
 
 .navbar-brand {
