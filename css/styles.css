@@ -7477,7 +7477,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-auto {
@@ -11395,7 +11395,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #00000020;
+  background-color: rgb(242, 242, 242);
 }
 /* .font-alt {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
