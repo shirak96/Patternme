@@ -119,7 +119,7 @@ animation: fade 4s linear;
 
 @media (min-width: 1200px) {
   .imgsteps {
-    height: auto;
+    /* height: auto; */
     max-width: 80% !important;
   }
 }
