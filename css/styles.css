@@ -122,6 +122,10 @@ animation: fade 4s linear;
     /* height: auto; */
     max-width: 75% !important;
   }
+  .imgsteps1 {
+    /* height: auto; */
+    max-width: 42% !important;
+  }
 }
 
 .iconwidth {
