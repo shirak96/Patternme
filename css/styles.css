@@ -156,7 +156,7 @@ animation: fade 4s linear;
   background: none;
   font-size: 18px;
   padding: 0 20px;
-  background: #000000;
+  background: #1332e6;
   color: white;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -164,9 +164,9 @@ animation: fade 4s linear;
 
 .newsletter form input[type="submit"]:hover {
   background: white;
-  color:  #000000;
+  color:  #1332e6;
   border: solid 2px;
-  border-color: #000000;
+  border-color: #1332e6;
 }
 
 .subscrib {
@@ -326,7 +326,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #212cc0;
+  color: #1332e6;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3139,17 +3139,17 @@ textarea.form-control-lg {
 .btn-primary:hover {
   color: #fff;
   background-color: #232fcc;
-  border-color: #212cc0;
+  border-color: #1332e6;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #232fcc;
-  border-color: #212cc0;
+  border-color: #1332e6;
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #212cc0;
+  background-color: #1332e6;
   border-color: #1f29b4;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -3577,7 +3577,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #212cc0;
+  color: #1332e6;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4055,7 +4055,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #212cc0;
+  color: #1332e6;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4921,13 +4921,13 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #212cc0;
+  color: #1332e6;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #212cc0;
+  color: #1332e6;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(41, 55, 240, 0.25);
@@ -6541,7 +6541,7 @@ textarea.form-control-lg {
   color: #2937f0;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #212cc0;
+  color: #1332e6;
 }
 
 .link-secondary {
