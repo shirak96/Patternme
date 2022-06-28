@@ -163,10 +163,10 @@ animation: fade 4s linear;
 }
 
 .newsletter form input[type="submit"]:hover {
-  background: white;
-  color:  #1332e6;
+  background: #0049fff2;
+  color:  #ffffff;
   border: solid 2px;
-  border-color: #1332e6;
+  border-color: #0049fff2;
 }
 
 .subscrib {
@@ -326,7 +326,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #1332e6;
+  color: #0049fff2;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
