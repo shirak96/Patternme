@@ -132,6 +132,14 @@ animation: fade 4s linear;
   }
 }
 
+@media (min-width: 990px) {
+
+  .imgsteps1 {
+    /* height: auto; */
+    max-width: 60% !important;
+  }
+}
+
 .iconwidth {
   width: 5rem;
   margin: 1rem;
