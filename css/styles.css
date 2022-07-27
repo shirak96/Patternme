@@ -98,13 +98,14 @@ body {
 
 /* Custom code */
 .mySlides {display: none;}
+
 .mailtomargin {
   margin-top: 0.5rem;
-
 }
                 
 /* Slideshow container */
 .slideshow-container {
+  text-align: center;
   max-width: 500px !important;
   position: relative;
   margin: auto;
