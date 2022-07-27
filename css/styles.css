@@ -102,6 +102,10 @@ body {
 .mailtomargin {
   margin-top: 0.5rem;
 }
+.footersection {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
                 
 /* Slideshow container */
 .slideshow-container {
@@ -7609,8 +7613,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 1.2rem !important;
-  padding-bottom: 1.2rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pt-0 {
@@ -11441,7 +11445,7 @@ section {
   background-color: white;
 }
 #mainNav .navbar-brand {
-  width: 15rem;
+  width: 14rem;
   /* font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
