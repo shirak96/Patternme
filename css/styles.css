@@ -98,6 +98,10 @@ body {
 
 /* Custom code */
 .mySlides {display: none;}
+.mailtomargin {
+  margin-top: 0.5rem;
+
+}
                 
 /* Slideshow container */
 .slideshow-container {
@@ -7477,7 +7481,7 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .mb-5 {
@@ -7596,8 +7600,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
 }
 
 .pt-0 {
