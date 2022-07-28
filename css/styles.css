@@ -126,24 +126,14 @@ animation: fade 4s linear;
 }
 
 
-@media (min-width: 1200px) {
-  .imgsteps {
-    /* height: auto; */
-    max-width: 100% !important;
-  }
+/* 
+@media (max-width: 990px) {
   .imgsteps1 {
-    /* height: auto; */
-    max-width: 60% !important;
+    align-items: center;
+    max-width: 65% !important;
   }
-}
+} */
 
-@media (min-width: 990px) {
-
-  .imgsteps1 {
-    /* height: auto; */
-    max-width: 60% !important;
-  }
-}
 
 .iconwidth {
   width: 5rem;
@@ -9534,7 +9524,7 @@ textarea.form-control-lg {
   }
 
   .justify-content-lg-between {
-    justify-content: space-between !important;
+    justify-content: left !important;
   }
 
   .justify-content-lg-around {
