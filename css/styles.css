@@ -104,7 +104,7 @@ body {
 }
 .footersection {
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
                 
 /* Slideshow container */
@@ -126,13 +126,15 @@ animation: fade 4s linear;
 }
 
 
-/* 
-@media (max-width: 990px) {
-  .imgsteps1 {
-    align-items: center;
-    max-width: 65% !important;
+
+@media (min-width: 1200px) {
+ .imgsteps {
+    max-width: 85% !important;
   }
-} */
+  .imgsteps1 {
+    max-width: 85% !important;
+  }
+}
 
 
 .iconwidth {
@@ -7604,7 +7606,7 @@ textarea.form-control-lg {
 
 .py-5 {
   padding-top: 1.5rem !important;
-  padding-bottom: 1rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .pt-0 {
@@ -11651,7 +11653,7 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead {
   background-color: transparent;
   padding-top: 9.5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 9.5rem;
 }
 .masthead .masthead-device-mockup {
   display: flex;
