@@ -11652,8 +11652,8 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   background-color: transparent;
-  padding-top: 9.5rem;
-  padding-bottom: 9.5rem;
+  padding-top: 11.5rem;
+  padding-bottom: 7.5rem;
 }
 .masthead .masthead-device-mockup {
   display: flex;
