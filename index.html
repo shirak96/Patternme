@@ -114,6 +114,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Proto.io scripts -->
+     
     </head>
 
 
@@ -397,7 +400,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="bg-light">
+        <section class="bg-light">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-6">
@@ -407,19 +410,23 @@
                         </p>                    
                     </div>
                     <div class="col-sm-10 col-md-8 col-lg-6">
-                        <div class="protoio-embed-prototype" data-code="DLXZ7D" data-show-sidebuttons="0" style="width: 100%; height: 600px;"></div>
-                        <script async src="https://static.proto.io/api/widget-embed.js"></script>
-                </div>
+                                                <iframe id="pio-playerframe" src="prototype/prototype.html" scrolling="YES" style="width: 390px; height: 700px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen allowvr allow="autoplay"></iframe>
+                                                    <script type="text/javascript">
+                                                        // remove parameter from address bar immediately if no changes
+                                                        let url = new URL(window.location.href);
+                                                        url.searchParams.delete('hc');
+                                                        url.searchParams.delete('ap');
+                                                        window.history.replaceState({}, document.title, url.toString());
+                                                    </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </body>
+                     </div>
             </div>
-        </section> -->
-        <!-- <section class="bg-light">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                    <div class="protoio-embed-prototype" data-code="11LYCG" data-show-sidebuttons="0" style="width: 500; height: 500;"></div>
-                    <script async src="https://static.proto.io/api/widget-embed.js"></script>                    
-                </div>
-            </div>
-        </section> -->
+        </section>
+
         <!-- Call to action section-->
         <!-- <section class="cta">
             <div class="cta-content">
