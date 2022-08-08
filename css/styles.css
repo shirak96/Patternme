@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - New Age v6.0.6 (https://startbootstrap.com/theme/new-age)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -56,7 +46,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  /* --bs-body-font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+  --bs-body-font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.5;
@@ -76,15 +66,14 @@
   }
 }
 
-/* @font-face {
-  font-family: "Conthrax Regular";
-  src: url("assets/Conthrax Regular.otf") format("opentype");
-} */
+@font-face {
+  font-family: conthrax;
+  src: url("conthrax.otf")  format("truetype");
+}
 
 body {
-  font-family: "Conthrax Regular", sans-serif;
+  font-family: conthrax;
   margin: 0;
-  /* font-family: var(--bs-body-font-family); */
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -7705,9 +7694,9 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
-.font-monospace {
-  /* font-family: var(--bs-font-monospace) !important; */
-}
+/* .font-monospace {
+  font-family: var(--bs-font-monospace) !important;
+} */
 
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
