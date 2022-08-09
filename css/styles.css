@@ -67,12 +67,12 @@
 }
 
 @font-face {
-  font-family: conthrax;
-  src: url("conthrax.otf")  format("truetype");
+  font-family: ConthraxLight;
+  src: url("ConthraxLight.otf")  format("truetype");
 }
 
 body {
-  font-family: conthrax;
+  font-family: ConthraxLight;
   margin: 0;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
