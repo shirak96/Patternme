@@ -147,13 +147,13 @@ animation: fade 4s linear;
 }
 
 .newsletter form input[type="submit"] {
+  font-size: 0.85rem;
   position: absolute;
   top: 0;
   right: -2px;
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 0.85rem;
   padding: 0 20px;
   background: #1332e6;
   color: white;
@@ -296,7 +296,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 0.775em;
 }
 
 mark, .mark {
@@ -574,7 +574,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
