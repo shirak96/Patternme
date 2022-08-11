@@ -139,7 +139,7 @@ animation: fade 4s linear;
 }
 
 .newsletter form input[type="email"] {
-  font-size: calc(0.5rem + 0.5vw);
+  font-size: calc(0.6rem + 0.5vw);
   border: 0;
   padding: 4px;
   width: calc(100% - 5px);
@@ -147,7 +147,7 @@ animation: fade 4s linear;
 }
 
 .newsletter form input[type="submit"] {
-  font-size: calc(0.5rem + 0.5vw);
+  font-size: calc(0.6rem + 0.5vw);
   position: absolute;
   top: 0;
   right: -2px;
@@ -205,6 +205,16 @@ p {
 }
 @media (min-width: 1200px) {
   p, .p {
+    font-size: 1.15rem;
+  }
+}
+
+.textresponsive {
+  font-size: calc(0.6rem + 0.8vw);
+  line-height: 1.6;
+}
+@media (min-width: 1200px) {
+  .textresponsive {
     font-size: 1.15rem;
   }
 }
