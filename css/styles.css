@@ -139,15 +139,15 @@ animation: fade 4s linear;
 }
 
 .newsletter form input[type="email"] {
+  font-size: calc(0.5rem + 0.5vw);
   border: 0;
   padding: 4px;
   width: calc(100% - 5px);
   background: #e5e5e5;
-  font-size: 0.85rem;
 }
 
 .newsletter form input[type="submit"] {
-  font-size: 0.85rem;
+  font-size: calc(0.5rem + 0.5vw);
   position: absolute;
   top: 0;
   right: -2px;
@@ -169,7 +169,13 @@ animation: fade 4s linear;
 }
 
 .subscrib {
+  font-size: calc(0.5rem + 0.8vw);
   color: #000000
+}
+@media (min-width: 1200px) {
+  .subscrib {
+    font-size: 1rem;
+  }
 }
 /* Custom code ends here*/
 
@@ -194,7 +200,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
 }
 
 p {
+  font-size: calc(0.6rem + 0.8vw);
   line-height: 1.6;
+}
+@media (min-width: 1200px) {
+  p, .p {
+    font-size: 1.15rem;
+  }
 }
 
 
@@ -299,8 +311,15 @@ strong {
   font-weight: bolder;
 }
 
-small, .small {
-  font-size: 0.75em;
+
+.small {
+  font-size: calc(0.4rem + 0.8vw);
+  color: #000000
+}
+@media (min-width: 1200px) {
+  .small, .small {
+    font-size: 0.75em;
+  }
 }
 
 mark, .mark {
@@ -578,7 +597,6 @@ progress {
 }
 
 .lead {
-  font-size: 1.15rem;
   /* font-weight: 300; */
 }
 .textblack {
@@ -7751,7 +7769,7 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .fw-bolder {
