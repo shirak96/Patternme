@@ -194,7 +194,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 
@@ -7882,7 +7882,8 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  /* color: #6c757d !important; */
+  color: rgb(108 112 117) !important;
 }
 
 .text-black-50 {
