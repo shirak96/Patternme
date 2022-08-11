@@ -579,7 +579,10 @@ progress {
 
 .lead {
   font-size: 1.15rem;
-  font-weight: 300;
+  /* font-weight: 300; */
+}
+.textblack {
+  color: #000;
 }
 
 .display-1 {
