@@ -115,7 +115,6 @@ animation: fade 4s linear;
 }
 
 
-
 @media (min-width: 1200px) {
  .imgsteps {
     max-width: 85% !important;
@@ -124,6 +123,16 @@ animation: fade 4s linear;
     max-width: 85% !important;
   }
 }
+
+@media (max-width: 768px) {
+   .imgsteps1 {
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;    
+    max-width: 60% !important;
+   }
+ }
 
 
 .iconwidth {
