@@ -164,7 +164,7 @@ animation: fade 4s linear;
   border: 0;
   background: none;
   padding: 0 20px;
-  background: #1332e6;
+  background: #0071ff;
   color: white;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -363,7 +363,7 @@ sup {
 }
 
 a {
-  color: #1332e6;
+  color: #0071ff;
   text-decoration: underline;
 }
 a:hover {
@@ -3182,17 +3182,17 @@ textarea.form-control-lg {
 .btn-primary:hover {
   color: #fff;
   background-color: #232fcc;
-  border-color: #1332e6;
+  border-color: #0071ff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #232fcc;
-  border-color: #1332e6;
+  border-color: #0071ff;
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1332e6;
+  background-color: #0071ff;
   border-color: #1f29b4;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -3620,7 +3620,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #1332e6;
+  color: #0071ff;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4098,7 +4098,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #1332e6;
+  color: #0071ff;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4964,13 +4964,13 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #1332e6;
+  color: #0071ff;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 .page-link:focus {
   z-index: 3;
-  color: #1332e6;
+  color: #0071ff;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(41, 55, 240, 0.25);
@@ -6584,7 +6584,7 @@ textarea.form-control-lg {
   color: #2937f0;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #1332e6;
+  color: #0071ff;
 }
 
 .link-secondary {
