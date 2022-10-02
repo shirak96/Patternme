@@ -86,6 +86,12 @@ body {
 
 
 /* Custom code */
+iframe {
+  max-width: 100% !important;
+  width: 1500px;
+  height: 800px;
+}
+
 .mySlides {display: none;}
 
 .mailtomargin {
@@ -11472,7 +11478,7 @@ section {
   background-color: white;
 }
 #mainNav .navbar-brand {
-  width: 14rem;
+  width: 12rem;
   /* font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 @media (min-width: 576px) {
