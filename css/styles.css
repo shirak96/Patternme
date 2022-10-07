@@ -89,7 +89,12 @@ body {
 iframe {
   max-width: 100% !important;
   width: 1500px;
-  height: 800px;
+  height: 900px;
+}
+
+.sliderimg {
+  max-width: 400px;
+  max-height: 550px;
 }
 
 .mySlides {display: none;}
@@ -98,8 +103,8 @@ iframe {
   margin-top: 0.5rem;
 }
 .footersection {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
                 
 /* Slideshow container */
@@ -226,11 +231,11 @@ p {
 
 .textresponsive {
   font-size: calc(0.6rem + 0.8vw);
-  line-height: 1.6;
+  line-height: 1.8;
 }
 @media (min-width: 1200px) {
   .textresponsive {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -11462,10 +11467,14 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-aside,
 section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+aside {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .app-badge {
@@ -11700,8 +11709,8 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   background-color: transparent;
-  padding-top: 11.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 3rem;
 }
 .masthead .masthead-device-mockup {
   display: flex;
