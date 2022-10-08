@@ -252,7 +252,7 @@ p {
 }
 @media (min-width: 1200px) {
   p, .p {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 }
 
