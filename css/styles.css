@@ -219,15 +219,7 @@ animation: fade 4s linear;
   border-color: #0049fff2;
 }
 
-.subscrib {
-  font-size: calc(0.6rem + 0.5vw);
-  color: #000000
-}
-@media (min-width: 1200px) {
-  .subscrib {
-    font-size: 1rem;
-  }
-}
+
 /* Custom code ends here*/
 
 hr {
@@ -7967,7 +7959,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   /* color: #6c757d !important; */
-  color: rgb(108 112 117) !important;
+  /* color: rgb(108 112 117) !important; */
 }
 
 .text-black-50 {
