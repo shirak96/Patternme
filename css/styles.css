@@ -90,7 +90,6 @@ body {
 .hwrap {
   justify-content: center;
   overflow-x: hidden;
-  height: 2rem;
   background-color: rgb(242, 242, 242);
 }
  
@@ -99,6 +98,7 @@ body {
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
+  justify-content: center;
   flex-shrink: 0;
   width: 100%;
   box-sizing: border-box;
@@ -11518,8 +11518,8 @@ aside {
 }
 
 #mainNav {
-  padding-top: 2.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
   background-color: white;
 }
 #mainNav .navbar-brand {
