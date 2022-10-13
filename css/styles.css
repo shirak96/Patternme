@@ -115,8 +115,6 @@ body {
 .hmove { animation: tickerh linear 30s infinite; }
 .hmove:hover { animation-play-state: paused; }
 
-
-
 iframe {
   max-width: 100% !important;
   width: 1500px;
