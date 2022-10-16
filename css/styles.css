@@ -112,8 +112,10 @@ body {
   0% { transform: translate3d(100%, 0, 0); }
   100% { transform: translate3d(-400%, 0, 0); }
 }
-.hmove { animation: tickerh linear 30s infinite; }
+.hmove { animation: tickerh linear 40s infinite; }
+.hmove { animation-timing-function: linear; }
 .hmove:hover { animation-play-state: paused; }
+
 
 iframe {
   max-width: 100% !important;
@@ -152,6 +154,10 @@ animation: fade 4s linear;
 @keyframes fade {
 0%,100% { opacity: 0 }
 50% { opacity: 1 }
+}
+
+.margintop1rem {
+  margin-top: 1rem;
 }
 
 
@@ -11737,6 +11743,11 @@ footer a:hover, footer a:active, footer a:focus {
   background-color: transparent;
   padding-top: 7.5rem;
   padding-bottom: 3rem;
+}     
+@media (min-width: 768px) {
+  .masthead {
+    padding-top: 9.5rem;
+  }  
 }
 .masthead .masthead-device-mockup {
   display: flex;
