@@ -186,6 +186,11 @@ animation: fade 4s linear;
   margin: 1rem;
 }
 
+.teamwidth {
+  width: 12rem;
+  margin: 1rem;
+}
+
 .newsletter form {
   background: #e5e5e5;
   padding: 3px 3px;
@@ -406,7 +411,7 @@ sup {
 
 a {
   color: #0071ff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #0049fff2;
