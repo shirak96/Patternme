@@ -123,6 +123,11 @@ iframe {
   height: 900px;
 }
 
+.textleft {
+  font-size: 1.1rem;
+  text-align: left;
+}
+
 .sliderimg {
   max-width: 400px;
   max-height: 550px;
@@ -272,7 +277,7 @@ p {
 }
 @media (min-width: 1200px) {
   .textresponsive {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -647,7 +652,7 @@ output {
 }
 
 iframe {
-  border: 0;
+  height: 700px;
 }
 
 summary {
@@ -11520,7 +11525,7 @@ aside {
 }
 
 #mainNav {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   padding-bottom: 0rem;
   background-color: white;
 }
