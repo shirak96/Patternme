@@ -67,9 +67,9 @@
 }
 
 @font-face {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Montserrat',
-    src: url("ConthraxBook.otf")  format("truetype");
+    /* src: url("ConthraxBook.otf")  format("truetype"); */
   }
 
 body {
@@ -11540,7 +11540,7 @@ aside {
   background-color: white;
 }
 #mainNav .navbar-brand {
-  width: 13rem;
+  width: 10rem;
   /* font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 @media (min-width: 576px) {
