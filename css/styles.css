@@ -94,9 +94,11 @@ body {
 }
 
 .margintop1rem {
+  font-weight: 300 !important;
   margin-top: 3rem;
   margin-bottom: 0rem;
 }
+
 
 /* Custom code */
 /* (A) FIXED WRAPPER */
@@ -196,6 +198,14 @@ animation: fade 4s linear;
     display:block;
     margin:auto;    
     max-width: 65% !important;
+   }
+
+   .ModelCss {
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;    
+    max-width: 30% !important;
    }
  }
 
@@ -7869,6 +7879,8 @@ textarea.form-control-lg {
 .fw-light {
   font-weight: 300 !important;
 }
+
+
 
 .fw-lighter {
   font-weight: lighter !important;
