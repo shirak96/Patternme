@@ -202,10 +202,7 @@ animation: fade 4s linear;
 
    .ModelCss {
     text-align:center;
-    width:100%;
-    display:block;
-    margin:auto;    
-    max-width: 30% !important;
+    width:35%;
    }
  }
 
