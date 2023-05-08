@@ -160,8 +160,8 @@ iframe {
   margin-top: 0.5rem;
 }
 .footersection {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2em;
 }
                 
 /* Slideshow container */
