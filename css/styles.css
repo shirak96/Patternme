@@ -160,8 +160,8 @@ iframe {
   margin-top: 0.5rem;
 }
 .footersection {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
                 
 /* Slideshow container */
@@ -7740,8 +7740,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
 }
 
 .pt-0 {
