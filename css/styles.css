@@ -1130,6 +1130,9 @@ progress {
   --bs-gutter-x: 1rem;
 }
 
+.gx-5custom {
+  --bs-gutter-x: 5rem;
+}
 .g-5,
 .gy-5 {
   --bs-gutter-y: 3rem;
