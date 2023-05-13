@@ -311,7 +311,7 @@ p {
 }
 @media (min-width: 1200px) {
   .textresponsive {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -349,7 +349,7 @@ h3, .h3 {
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
