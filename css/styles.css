@@ -9280,7 +9280,7 @@ textarea.form-control-lg {
   }
 
   .mb-md-0 {
-    margin-bottom: 5rem !important;
+    margin-bottom: 4rem !important;
   }
 
   .mb-md-1 {
@@ -11561,21 +11561,21 @@ html {
 }
 
 section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .sectionfeatures{
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
 }
 
 aside {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .Textfeatures {
-  margin-bottom: 5rem !important;
+  margin-bottom: 4rem !important;
   text-align: center;
 }
 
