@@ -346,8 +346,15 @@ h2, .h2 {
 
 .imgSus {
   border-radius: 5px;
-  width: 83%;
+  width: 80%;
 }
+
+@media (max-width: 991px) {
+  .imgSus {
+    width: 100%;
+  }
+} 
+
 
 .textsolution {
   font-size: 1rem;
@@ -11644,11 +11651,11 @@ html {
 }
 
 .vidsection {
-  text-align: right;
+  text-align: center;
 }
 
 .Video {
-  width: 75%;
+  width: 110%;
   height: 100% 
 }
 
@@ -11696,11 +11703,6 @@ aside {
 #mainNav .navbar-brand {
   width: 12.5rem;
   /* font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-}
-@media (max-width: 576px) {
-  #mainNav .navbar-brand {
-    width: 10rem;
-  }
 }
 
 
